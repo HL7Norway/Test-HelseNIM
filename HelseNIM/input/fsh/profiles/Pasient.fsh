@@ -12,8 +12,8 @@ Title: "Norsk-pasientinformasjon"
 Description: "En norsk pasient"
 Characteristics: #can-be-target
 // url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
-* name 0..* SU Norsk-Navn "Name(s) of the human" "The names by which the human is or has been known"
-* kjonn 0..1 SU CodeableConcept "http://hl7.org/fhir/ValueSet/administrative-gender" "Administrativt kjønn"
+* navn 0..* SU Norsk-Navn "Name(s) of the human" "The names by which the human is or has been known"
+* kjønn 0..1 SU CodeableConcept "http://hl7.org/fhir/ValueSet/administrative-gender" "Administrativt kjønn"
   * ^binding.valueSet = http://hl7.org/fhir/ValueSet/administrative-gender
   * ^binding.description = "HL7 Administrative Gender"
   * ^binding.strength = #preferred
