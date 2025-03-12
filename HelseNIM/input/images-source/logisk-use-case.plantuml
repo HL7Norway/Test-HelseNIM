@@ -1,19 +1,29 @@
 @startuml
 
-"Modellerer" as mod 
+"Forfatter" as mod 
 '<< FHIR client >>
 "Leser" as leser 
 '<< FHIR server >>
 "lage modell" as (lage) << FHIR FSH >> #lightblue 
+note "HelseNIM som \nLogisk FHIR modell" as hnim
 '"presentere modell" as (presentere)
 "publisere modell" as (publisere) << FHIR IG >> #lightblue
 "lese modell" as (lese) << FHIR IG >> #lightblue
+"oppdatere modell" as (oppdatere) #lightblue
 "gi tilbakemelding" as (tilbake) << Github issues >> #lightblue
-"motta tilbakemelding" as (motta) #lightblue
+"motta tilbakemelding" as (motta) << Github issues >> #lightblue
 
 (lage) .down. (publisere)
-(publisere) .down[hidden]. (motta)
+(publisere) .down[hidden]. (oppdatere)
+(oppdatere) .down. (motta)
 (lese) .down[hidden]. (tilbake)
+publisere .up. hnim
+leser .up[hidden]. hnim
+lage .right[hidden]. hnim
+publisere -down-> oppdatere
+oppdatere .up[hidden]. publisere
+oppdatere -up-> publisere
+'mod -down-> oppdatere
 
 mod -up-> (lage)
 mod -right-> (publisere)
