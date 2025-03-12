@@ -1,0 +1,19 @@
+{
+  "url" : "http://hl7.no/fhir/ig/TestHelseNIM/ImplementationGuide/hl7.fhir.no.TestHelseNIM",
+  "name" : "TestHelseNIM",
+  "title" : "Test HelseNIM",
+  "description" : "Implementasjonsguide for å teste HelseNIM som FHIR logisk modell IG.",
+  "status" : "draft",
+  "package-id" : "hl7.fhir.no.TestHelseNIM",
+  "ig-ver" : "0.1.0",
+  "date" : "Wed, 12 Mar, 2025 12:23:27 +0000",
+  "dateISO8601" : "2025-03-12T12:23:27+00:00",
+  "errs" : 0,
+  "warnings" : 23,
+  "hints" : 0,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 743159872
+}

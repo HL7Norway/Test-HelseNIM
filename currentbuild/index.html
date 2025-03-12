@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Home - Test HelseNIM v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"1"}
+    h3,h4,h5,h6{--heading-prefix:"1"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+            
+<div id="family-nav">
+	<a id="logo" no-external="true" href="http://hl7.org/fhir"> <img
+		alt="logo fhir" height="50" src="assets/images/fhir-logo-www.png" />
+	</a>
+</div>
+
+
+            
+<div id="hl7-nav">
+    <a id="hl7-logo" no-external="true" href="https://github.com/HL7Norway">
+        <img alt="visit the hl7 website" height="60" src="assets/images/HL7-norway-logo.png" />
+    </a>            
+</div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Test HelseNIM</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+
+  <img alt="Norway flag" src="assets/images/nor.svg" height="16" title="Norway"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li>
+    <a href="toc.html">TOC</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Test HelseNIM - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://hl7.no/fhir/ig/TestHelseNIM/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Home</h2>
+  
+
+
+
+
+
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.no/fhir/ig/TestHelseNIM/ImplementationGuide/hl7.fhir.no.TestHelseNIM<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.no/fhir/ig/TestHelseNIM/ImplementationGuide/hl7.fhir.no.TestHelseNIM"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.no/fhir/ig/TestHelseNIM/ImplementationGuide/hl7.fhir.no.TestHelseNIM|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2025-03-12
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">TestHelseNIM</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#helsenim-testing" id="markdown-toc-helsenim-testing">HelseNIM testing</a></li>
+  <li><a href="#mål" id="markdown-toc-mål">Mål</a></li>
+</ul>
+
+</div>
+<h3 id="helsenim-testing">HelseNIM testing</h3>
+
+<p>Teste bruk av FHIR logiske modeller for å dokumentere HelseNIM modeller.</p>
+
+<h3 id="mål">Mål</h3>
+
+<p>Målet er å teste bruk av FHIR logiske modeller skrevet i FSH. Publisere modellene som FHIR implementasjonsguider på Github.</p>
+
+<p>&lt;?xml version=”1.0” encoding=”us-ascii” standalone=”no”?&gt;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="312px" preserveAspectRatio="none" style="width:531px;height:312px;background:#FFFFFF;" version="1.1" viewBox="0 0 531 312" width="531px" zoomAndPan="magnify"><defs></defs><g><!--entity mod--><g id="elem_mod"><ellipse cx="42.5" cy="126.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"></ellipse><path d="M42.5,134.5 L42.5,161.5 M29.5,142.5 L55.5,142.5 M42.5,161.5 L29.5,176.5 M42.5,161.5 L55.5,176.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"></path><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="6" y="190.9951">Modellerer</text></g><!--entity leser--><g id="elem_leser"><ellipse cx="505.5" cy="126.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"></ellipse><path d="M505.5,134.5 L505.5,161.5 M492.5,142.5 L518.5,142.5 M505.5,161.5 L492.5,176.5 M505.5,161.5 L518.5,176.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"></path><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="486.5" y="190.9951">Leser</text></g><g id="elem_lage"><ellipse cx="121.2886" cy="32.0264" fill="#ADD8E6" rx="67.2886" ry="26.0264" style="stroke:#181818;stroke-width:0.5;"></ellipse><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="80" x="78.5386" y="27.6256">&#171;FHIR FSH&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="79.0386" y="43.9224">lage modell</text></g><g id="elem_publisere"><ellipse cx="200.3069" cy="155.9205" fill="#ADD8E6" rx="85.8069" ry="24.4205" style="stroke:#181818;stroke-width:0.5;"></ellipse><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="67" x="160.5061" y="149.9334">&#171;FHIR IG&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="137.0061" y="166.2303">publisere modell</text></g><g id="elem_lese"><ellipse cx="386.6762" cy="155.7699" fill="#ADD8E6" rx="65.1762" ry="25.2699" style="stroke:#181818;stroke-width:0.5;"></ellipse><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="67" x="347.4992" y="151.2738">&#171;FHIR IG&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="341.4992" y="167.5707">lese modell</text></g><g id="elem_tilbake"><ellipse cx="403.5065" cy="280.0465" fill="#ADD8E6" rx="93.5065" ry="26.0465" style="stroke:#181818;stroke-width:0.5;"></ellipse><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="113" x="343.2565" y="275.6456">&#171;Github issues&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="341.7565" y="291.9425">gi tilbakemelding</text></g><g id="elem_motta"><ellipse cx="183.4996" cy="280.0999" fill="#ADD8E6" rx="90.9996" ry="20.5999" style="stroke:#181818;stroke-width:0.5;"></ellipse><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="111.4996" y="282.9466">motta tilbakemelding</text></g><!--link lage to publisere--><g id="link_lage_publisere"><path d="M137.3,57.4 C151.26,78.95 171.48,110.19 185.27,131.48 " fill="none" id="lage-publisere" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"></path></g><!--link publisere to motta--><!--link lese to tilbake--><!--reverse link lage to mod--><g id="link_lage_mod"><path d="M102.74,61.97 C91.95,78.64 78.27,99.76 66.68,117.67 " fill="none" id="lage-backto-mod" style="stroke:#181818;stroke-width:1.0;"></path><polygon fill="#181818" points="105.7,57.4,97.4471,62.775,102.9796,61.5952,104.1594,67.1276,105.7,57.4" style="stroke:#181818;stroke-width:1.0;"></polygon></g><!--link mod to publisere--><g id="link_mod_publisere"><path d="M79.22,156 C89.17,156 99.12,156 109.08,156 " fill="none" id="mod-to-publisere" style="stroke:#181818;stroke-width:1.0;"></path><polygon fill="#181818" points="114.28,156,105.28,152,109.28,156,105.28,160,114.28,156" style="stroke:#181818;stroke-width:1.0;"></polygon></g><!--link publisere to lese--><g id="link_publisere_lese"><path d="M286.6,156 C298.17,156 309.75,156 321.33,156 " fill="none" id="publisere-lese" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"></path></g><!--link mod to motta--><g id="link_mod_motta"><path d="M79.18,188.74 C103.76,210 135.53,237.49 157.52,256.52 " fill="none" id="mod-to-motta" style="stroke:#181818;stroke-width:1.0;"></path><polygon fill="#181818" points="161.51,259.97,157.3324,251.0511,157.733,256.6937,152.0903,257.0943,161.51,259.97" style="stroke:#181818;stroke-width:1.0;"></polygon></g><!--link motta to tilbake--><g id="link_motta_tilbake"><path d="M274.59,280 C286.34,280 298.09,280 309.84,280 " fill="none" id="motta-tilbake" style="stroke:#181818;stroke-width:1.0;"></path></g><!--reverse link lese to leser--><g id="link_lese_leser"><path d="M456.71,156 C466.51,156 476.32,156 486.12,156 " fill="none" id="lese-backto-leser" style="stroke:#181818;stroke-width:1.0;"></path><polygon fill="#181818" points="451.58,156,460.58,160,456.58,156,460.58,152,451.58,156" style="stroke:#181818;stroke-width:1.0;"></polygon></g><!--link leser to tilbake--><g id="link_leser_tilbake"><path d="M486.31,179.95 C469.58,199.96 445.24,229.07 427.28,250.56 " fill="none" id="leser-to-tilbake" style="stroke:#181818;stroke-width:1.0;"></path><polygon fill="#181818" points="424,254.48,432.8425,250.1429,427.2079,250.6447,426.7061,245.0102,424,254.48" style="stroke:#181818;stroke-width:1.0;"></polygon></g></g></svg></p>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.TestHelseNIM#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Mar 12, 2025 12:23+0000">2025-03-12</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

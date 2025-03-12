@@ -1,0 +1,164 @@
+{
+  "date" : "Wed, 12 Mar, 2025 12:23:27 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.TestHelseNIM.json",
+      "size" : 2104,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 43,
+          "length" : 24
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 44,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 44,
+          "length" : 231
+        },
+        {
+          "activity" : "validate",
+          "start" : 45,
+          "length" : 1664
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 73
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 65
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 55,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 57,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-Norsk-Pasient.json",
+      "size" : 1882,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 43,
+          "length" : 22
+        },
+        {
+          "activity" : "load",
+          "start" : 43,
+          "length" : 18
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 43,
+          "length" : 16
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 44,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 44,
+          "length" : 47
+        },
+        {
+          "activity" : "validate",
+          "start" : 44,
+          "length" : 796
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 47,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 38
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 134
+        },
+        {
+          "activity" : "generate2",
+          "start" : 50,
+          "length" : 762
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-no-basis-HumanName.json",
+      "size" : 3188,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 43,
+          "length" : 13
+        },
+        {
+          "activity" : "load",
+          "start" : 43,
+          "length" : 14
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 43,
+          "length" : 17
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 44,
+          "length" : 24
+        },
+        {
+          "activity" : "validate",
+          "start" : 45,
+          "length" : 64
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 40
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 156
+        },
+        {
+          "activity" : "generate2",
+          "start" : 50,
+          "length" : 124
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 55,
+          "length" : 2
+        }
+      ]
+    }
+  ]
+}

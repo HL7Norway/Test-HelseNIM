@@ -1,0 +1,4 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.TestHelseNIM.json	2104	-	0	0	0	0	0	0	3	231	0	0	0	0	0	0	0	0	0	0	73	65	0	0	0	3	0	2
+fsh-generated/resources/StructureDefinition-Norsk-Pasient.json	1882	22	0	16	1	0	0	0	0	47	0	0	0	0	0	0	0	1	0	0	38	134	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-no-basis-HumanName.json	3188	13	0	17	0	0	0	0	0	24	0	0	0	0	0	0	0	0	0	0	40	156	0	0	0	2	0	0

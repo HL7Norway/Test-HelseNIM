@@ -1,0 +1,13 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"no-basis-HumanName","no-basis-HumanName","","","",0,*,"","","","null {[]} {[]}
+","no-basis-HumanName","Basisprofil for Norwegian HumanName. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds the concept of middlename and further explains of the use for the data-elements in a Norwegian context. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"no-basis-HumanName.fornavn","no-basis-HumanName.fornavn","","","",0,*,"","","Y","string {[]} {[]}
+","Given names (not always 'first').","Given names (not always 'first').","","","","","","","","","",,,,,"",,,,"no-basis-HumanName.fornavn",0,*,"",""
+"no-basis-HumanName.mellomnavn","no-basis-HumanName.mellomnavn","","","",0,1,"","","Y","string {[]} {[]}
+","Defines a middle name as a specific extension as this is widely used in Norwegian names. The middlename is defined in norwegian legislation (lov om personnavn).","Defines a middle name as a specific extension as this is widely used in Norwegian names. The middlename is defined in norwegian legislation (lov om personnavn).","","","","","","","","","",,,,,"",,,,"no-basis-HumanName.mellomnavn",0,1,"",""
+"no-basis-HumanName.etternavn","no-basis-HumanName.etternavn","","","",0,1,"","","Y","string {[]} {[]}
+","Ref. ""lov om personnavn"" for further details about Norwegian HumanNames.
+
+The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.","Ref. ""lov om personnavn"" for further details about Norwegian HumanNames.
+
+The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.","","","","","","","","","",,,,,"",,,,"no-basis-HumanName.etternavn",0,1,"",""
