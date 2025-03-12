@@ -6,14 +6,14 @@
   "status" : "draft",
   "package-id" : "hl7.fhir.no.TestHelseNIM",
   "ig-ver" : "0.1.0",
-  "date" : "Wed, 12 Mar, 2025 15:47:15 +0000",
-  "dateISO8601" : "2025-03-12T15:47:15+00:00",
+  "date" : "Wed, 12 Mar, 2025 15:50:33 +0000",
+  "dateISO8601" : "2025-03-12T15:50:33+00:00",
   "errs" : 0,
-  "warnings" : 23,
+  "warnings" : 24,
   "hints" : 0,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 735821080
+  "maxMemory" : 777954616
 }

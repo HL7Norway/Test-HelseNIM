@@ -10,7 +10,7 @@
   "name" : "TestHelseNIM",
   "title" : "Test HelseNIM",
   "status" : "draft",
-  "date" : "2025-03-12T15:46:35+00:00",
+  "date" : "2025-03-12T15:49:50+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -611,10 +611,10 @@
         "valueString" : "StructureDefinition:logical"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/no-basis-HumanName"
+        "reference" : "StructureDefinition/Norsk-Navn"
       },
-      "name" : "no-basis-HumanName",
-      "description" : "Basisprofil for Norwegian HumanName. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds the concept of middlename and further explains of the use for the data-elements in a Norwegian context. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+      "name" : "Norsk navn",
+      "description" : "Norwegian  HumanName. HL7 Norway. The profile adds the concept of middlename and further explains of the use for the data-elements in a Norwegian context.",
       "exampleBoolean" : false
     },
     {

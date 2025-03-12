@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "TestHelseNIM"] ; # 
   fhir:title [ fhir:v "Test HelseNIM"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-12T15:46:35+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-03-12T15:49:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;
@@ -836,11 +836,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/no-basis-HumanName> ;
-         fhir:reference [ fhir:v "StructureDefinition/no-basis-HumanName" ]
+         fhir:link <http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/Norsk-Navn> ;
+         fhir:reference [ fhir:v "StructureDefinition/Norsk-Navn" ]
        ] ;
-       fhir:name [ fhir:v "no-basis-HumanName" ] ;
-       fhir:description [ fhir:v "Basisprofil for Norwegian HumanName. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds the concept of middlename and further explains of the use for the data-elements in a Norwegian context. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case." ] ;
+       fhir:name [ fhir:v "Norsk navn" ] ;
+       fhir:description [ fhir:v "Norwegian  HumanName. HL7 Norway. The profile adds the concept of middlename and further explains of the use for the data-elements in a Norwegian context." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

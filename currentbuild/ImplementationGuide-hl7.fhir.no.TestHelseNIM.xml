@@ -11,7 +11,7 @@
   <name value="TestHelseNIM"/>
   <title value="Test HelseNIM"/>
   <status value="draft"/>
-  <date value="2025-03-12T15:46:35+00:00"/>
+  <date value="2025-03-12T15:49:50+00:00"/>
   <publisher value="HL7 Norge"/>
   <contact>
     <name value="HL7 Norge"/>
@@ -456,10 +456,10 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/no-basis-HumanName"/>
+        <reference value="StructureDefinition/Norsk-Navn"/>
       </reference>
-      <name value="no-basis-HumanName"/>
-      <description value="Basisprofil for Norwegian HumanName. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds the concept of middlename and further explains of the use for the data-elements in a Norwegian context. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."/>
+      <name value="Norsk navn"/>
+      <description value="Norwegian  HumanName. HL7 Norway. The profile adds the concept of middlename and further explains of the use for the data-elements in a Norwegian context."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
