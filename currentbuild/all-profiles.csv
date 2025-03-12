@@ -13,7 +13,7 @@ The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) 
 The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.","","","","","","","","","",,,,,"",,,,"Norsk-Navn.etternavn",0,1,"",""
 "Norsk-Pasient","Norsk-Pasient","Norsk-Pasient","","","",0,*,"","","","null {[]} {[]}
 ","Norsk-pasientinformasjon","En norsk pasient","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
-"Norsk-Pasient","Norsk-Pasient.name","Norsk-Pasient.name","","","",0,*,"","","Y","http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/Norsk-Navn {[]} {[]}
-","Name(s) of the human","The names by which the human is or has been known","","","","","","","","","",,,,,"",,,,"Norsk-Pasient.name",0,*,"",""
+"Norsk-Pasient","Norsk-Pasient.navn","Norsk-Pasient.navn","","","",0,*,"","","Y","http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/Norsk-Navn {[]} {[]}
+","Name(s) of the human","The names by which the human is or has been known","","","","","","","","","",,,,,"",,,,"Norsk-Pasient.navn",0,*,"",""
 "Norsk-Pasient","Norsk-Pasient.kjonn","Norsk-Pasient.kjonn","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
 ","http://hl7.org/fhir/ValueSet/administrative-gender","Administrativt kjønn","","","","","","","","","",,"preferred","HL7 Administrative Gender","http://hl7.org/fhir/ValueSet/administrative-gender","",,,,"Norsk-Pasient.kjonn",0,1,"",""

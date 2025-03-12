@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "Norsk-Navn"] ; # 
   fhir:title [ fhir:v "Norsk navn"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-12T15:49:50+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-03-12T15:55:13+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;
