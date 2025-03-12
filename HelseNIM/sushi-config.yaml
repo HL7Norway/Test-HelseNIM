@@ -3,7 +3,7 @@
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 # Oppdater med riktig informasjon
-id: hl7.fhir.no.mal
+id: hl7.fhir.no.TestHelseNIM
 canonical: http://hl7.no/fhir/ig/TestHelseNIM
 name: TestHelseNIM
 title: "Test HelseNIM"
