@@ -1,0 +1,26 @@
+@startuml
+
+"Modellerer" as mod 
+'<< FHIR client >>
+"Leser" as leser 
+'<< FHIR server >>
+"lage modell" as (lage) << FHIR FSH >> #lightblue 
+'"presentere modell" as (presentere)
+"publisere modell" as (publisere) << FHIR IG >> #lightblue
+"lese modell" as (lese) << FHIR IG >> #lightblue
+"gi tilbakemelding" as (tilbake) << Github issues >> #lightblue
+"motta tilbakemelding" as (motta) #lightblue
+
+(lage) .down. (publisere)
+(publisere) .down[hidden]. (motta)
+(lese) .down[hidden]. (tilbake)
+
+mod -up-> (lage)
+mod -right-> (publisere)
+(publisere) .right. (lese)
+mod -down-> motta
+(motta) -right- (tilbake)
+leser -left-> (lese)
+leser -down-> (tilbake)
+
+@enduml

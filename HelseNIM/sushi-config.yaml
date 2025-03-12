@@ -4,10 +4,10 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 # Oppdater med riktig informasjon
 id: hl7.fhir.no.mal
-canonical: http://hl7.no/fhir/ig/mal
-name: Mal
-title: "Mal"
-description: Implementasjonsguide for å TODO
+canonical: http://hl7.no/fhir/ig/TestHelseNIM
+name: TestHelseNIM
+title: "Test HelseNIM"
+description: Implementasjonsguide for å teste HelseNIM som FHIR logisk modell IG.
 status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
@@ -18,8 +18,6 @@ jurisdiction: urn:iso:std:iso:3166#NO "Norway"
 publisher:
   name: HL7 Norge
   url: https://www.hl7.no
-dependencies:
-  hl7.fhir.no.basis: 2.2.0
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
