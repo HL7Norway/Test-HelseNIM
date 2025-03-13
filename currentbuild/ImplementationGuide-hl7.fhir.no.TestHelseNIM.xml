@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="http://hl7.no/fhir/ig/TestHelseNIM/ImplementationGuide/hl7.fhir.no.TestHelseNIM"/>
-  <version value="0.1.0"/>
+  <version value="0.1.1"/>
   <name value="TestHelseNIM"/>
   <title value="Test HelseNIM"/>
   <status value="draft"/>
-  <date value="2025-03-12T15:55:13+00:00"/>
+  <date value="2025-03-13T07:41:16+00:00"/>
   <publisher value="HL7 Norge"/>
   <contact>
     <name value="HL7 Norge"/>
@@ -486,6 +486,14 @@
         </extension>
         <nameUrl value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="guideance.html"/>
+        </extension>
+        <nameUrl value="guideance.html"/>
+        <title value="Guideance"/>
         <generation value="markdown"/>
       </page>
     </page>

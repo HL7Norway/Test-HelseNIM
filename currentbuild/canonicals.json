@@ -3,21 +3,21 @@
     "id" : "hl7.fhir.no.TestHelseNIM",
     "type" : "ImplementationGuide",
     "url" : "http://hl7.no/fhir/ig/TestHelseNIM/ImplementationGuide/hl7.fhir.no.TestHelseNIM",
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "name" : "TestHelseNIM"
   },
   {
     "id" : "Norsk-Navn",
     "type" : "StructureDefinition",
     "url" : "http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/Norsk-Navn",
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "name" : "Norsk-Navn"
   },
   {
     "id" : "Norsk-Pasient",
     "type" : "StructureDefinition",
     "url" : "http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/Norsk-Pasient",
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "name" : "Pasient"
   }
 ]

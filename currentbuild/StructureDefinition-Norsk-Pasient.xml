@@ -12,11 +12,11 @@
     <valueCode value="can-be-target"/>
   </extension>
   <url value="http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/Norsk-Pasient"/>
-  <version value="0.1.0"/>
+  <version value="0.1.1"/>
   <name value="Pasient"/>
   <title value="Norsk-pasientinformasjon"/>
   <status value="draft"/>
-  <date value="2025-03-12T15:55:13+00:00"/>
+  <date value="2025-03-13T07:41:16+00:00"/>
   <publisher value="HL7 Norge"/>
   <contact>
     <name value="HL7 Norge"/>

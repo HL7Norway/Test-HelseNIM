@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.TestHelseNIM</b></p><a name=\"hl7.fhir.no.TestHelseNIM\"> </a><a name=\"hchl7.fhir.no.TestHelseNIM\"> </a><a name=\"hl7.fhir.no.TestHelseNIM-no-NO\"> </a><h2>TestHelseNIM</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/TestHelseNIM/ImplementationGuide/hl7.fhir.no.TestHelseNIM</pre><div><p>Implementasjonsguide for å teste HelseNIM som FHIR logisk modell IG.</p>\n</div></div>"
   },
   "url" : "http://hl7.no/fhir/ig/TestHelseNIM/ImplementationGuide/hl7.fhir.no.TestHelseNIM",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "name" : "TestHelseNIM",
   "title" : "Test HelseNIM",
   "status" : "draft",
-  "date" : "2025-03-12T15:55:13+00:00",
+  "date" : "2025-03-13T07:41:16+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -644,6 +644,15 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "guideance.html"
+        }],
+        "nameUrl" : "guideance.html",
+        "title" : "Guideance",
         "generation" : "markdown"
       }]
     },

@@ -21,11 +21,11 @@
      ]
   ] ) ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/Norsk-Pasient"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.1.1"] ; # 
   fhir:name [ fhir:v "Pasient"] ; # 
   fhir:title [ fhir:v "Norsk-pasientinformasjon"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-12T15:55:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-03-13T07:41:16+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;

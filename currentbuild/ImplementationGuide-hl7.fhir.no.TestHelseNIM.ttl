@@ -14,11 +14,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.TestHelseNIM</b></p><a name=\"hl7.fhir.no.TestHelseNIM\"> </a><a name=\"hchl7.fhir.no.TestHelseNIM\"> </a><a name=\"hl7.fhir.no.TestHelseNIM-no-NO\"> </a><h2>TestHelseNIM</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/TestHelseNIM/ImplementationGuide/hl7.fhir.no.TestHelseNIM</pre><div><p>Implementasjonsguide for å teste HelseNIM som FHIR logisk modell IG.</p>\n</div></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/ig/TestHelseNIM/ImplementationGuide/hl7.fhir.no.TestHelseNIM"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.1.1"] ; # 
   fhir:name [ fhir:v "TestHelseNIM"] ; # 
   fhir:title [ fhir:v "Test HelseNIM"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-12T15:55:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-03-13T07:41:16+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;
@@ -891,6 +891,20 @@
            fhir:v "index.html"^^xsd:anyURI
          ] ;
          fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "guideance.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "guideance.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Guideance" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;
