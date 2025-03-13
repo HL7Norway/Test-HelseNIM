@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "TestHelseNIM"] ; # 
   fhir:title [ fhir:v "Test HelseNIM"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-13T07:41:16+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-03-13T07:44:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;
