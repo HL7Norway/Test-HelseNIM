@@ -9,7 +9,7 @@ name: TestHelseNIM
 title: "Test HelseNIM"
 description: Implementasjonsguide for å teste HelseNIM som FHIR logisk modell IG.
 status: draft
-version: 0.1.0
+version: 0.1.1
 fhirVersion: 4.0.1
 copyrightYear: 2025+
 releaseLabel: ci-build
@@ -24,5 +24,6 @@ publisher:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Guideance: guideance.html
   Artifacts: artifacts.html
   TOC: toc.html

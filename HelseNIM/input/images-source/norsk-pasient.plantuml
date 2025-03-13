@@ -1,0 +1,15 @@
+@startuml
+
+class NorskPasient {
+kjonn 0..1 : CodeableConcept
+}
+
+NorskPasient "0" o-- "*" NorskNavn : navn
+
+class NorskNavn {
+fornavn 0..* : string
+mellomnavn 0..1 : string
+etternavn 0..1 : string
+}
+
+@enduml
