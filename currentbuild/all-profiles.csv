@@ -19,3 +19,11 @@ The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) 
 ","http://hl7.org/fhir/ValueSet/administrative-gender","Administrativt kjønn","","","","","","","","","",,"preferred","HL7 Administrative Gender","http://hl7.org/fhir/ValueSet/administrative-gender","",,,,"Norsk-Pasient.kjonn",0,1,"",""
 "Norsk-Pasient","Norsk-Pasient.sivilstatus","Norsk-Pasient.sivilstatus","","","",0,1,"","","Y","code {[]} {[]}
 ","Sivilstatus","Sivilstatus","","","","","","","","","",,"","","http://hl7.org/fhir/ValueSet/marital-status","",,,,"Norsk-Pasient.sivilstatus",0,1,"",""
+"helsenim-condition","helsenim-condition","helsenim-condition","","","",0,*,"","","","null {[]} {[]}
+","Helse-NIM Tilstand (condition)","Den logiske modellen for Helse-NIM for Tilstander","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"helsenim-condition","helsenim-condition.innholdsstatus","helsenim-condition.innholdsstatus","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
+","https://hl7.org/fhir/uv/ips/STU1.1/ValueSet-absent-or-unknown-problems-uv-ips.html","Absent or Unknown Problems - IPS","","","","","","","","","",,"preferred","Absent or Unknown Problems - IPS","https://hl7.org/fhir/uv/ips/STU1.1/ValueSet-absent-or-unknown-problems-uv-ips.html","",,,,"helsenim-condition.innholdsstatus",0,1,"",""
+"helsenim-condition","helsenim-condition.kategori","helsenim-condition.kategori","","","",0,*,"","","Y","CodeableConcept {[]} {[]}
+","https://finnkode.helsedirektoratet.no/adm/collections/7650?q=7650","KJ 7650 Typer av kritisk informasjon","","","","","","","","","",,"preferred","KJ 7650 Typer av kritisk informasjon","https://finnkode.helsedirektoratet.no/adm/collections/7650?q=7650","",,,,"helsenim-condition.kategori",0,*,"",""
+"helsenim-condition","helsenim-condition.kommentar","helsenim-condition.kommentar","","","",0,1,"","","Y","string {[]} {[]}
+","Nærmere beskrivelse av tilstanden","Nærmere beskrivelse av tilstanden","","","","","","","","","",,,,,"",,,,"helsenim-condition.kommentar",0,1,"",""

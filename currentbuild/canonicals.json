@@ -19,5 +19,12 @@
     "url" : "http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/Norsk-Pasient",
     "version" : "0.1.1",
     "name" : "Pasient"
+  },
+  {
+    "id" : "helsenim-condition",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/helsenim-condition",
+    "version" : "0.1.1",
+    "name" : "Tester-helsenim-Condition"
   }
 ]

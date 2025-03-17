@@ -1,49 +1,49 @@
 {
-  "date" : "Mon, 17 Mar, 2025 07:23:11 +0000",
+  "date" : "Mon, 17 Mar, 2025 12:25:54 +0000",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
       "name" : "/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.TestHelseNIM.json",
-      "size" : 2004,
+      "size" : 2277,
       "processes" : [
         {
           "activity" : "load",
-          "start" : 48,
-          "length" : 23
+          "start" : 39,
+          "length" : 16
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 52,
+          "start" : 44,
           "length" : 3
         },
         {
           "activity" : "generateNarratives",
-          "start" : 52,
-          "length" : 385
+          "start" : 44,
+          "length" : 292
         },
         {
           "activity" : "validate",
-          "start" : 54,
-          "length" : 1910
+          "start" : 45,
+          "length" : 3791
         },
         {
           "activity" : "generate1",
-          "start" : 56,
-          "length" : 66
+          "start" : 49,
+          "length" : 64
         },
         {
           "activity" : "generate2",
-          "start" : 59,
-          "length" : 70
+          "start" : 52,
+          "length" : 66
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 66,
-          "length" : 3
+          "start" : 58,
+          "length" : 2
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 73,
+          "start" : 60,
           "length" : 1
         }
       ]
@@ -54,63 +54,53 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 48,
-          "length" : 21
+          "start" : 39,
+          "length" : 17
         },
         {
           "activity" : "load",
-          "start" : 48,
-          "length" : 19
+          "start" : 39,
+          "length" : 18
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 48,
-          "length" : 20
+          "start" : 39,
+          "length" : 14
         },
         {
           "activity" : "load-configure",
-          "start" : 52,
+          "start" : 44,
           "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 52,
-          "length" : 40
+          "start" : 44,
+          "length" : 43
         },
         {
           "activity" : "validate",
-          "start" : 53,
-          "length" : 873
+          "start" : 45,
+          "length" : 605
         },
         {
           "activity" : "generate1",
-          "start" : 56,
-          "length" : 38
+          "start" : 49,
+          "length" : 42
         },
         {
           "activity" : "generate2",
-          "start" : 59,
-          "length" : 213
+          "start" : 52,
+          "length" : 178
         },
         {
           "activity" : "generate2",
-          "start" : 59,
-          "length" : 983
-        },
-        {
-          "activity" : "makeDependencies",
-          "start" : 61,
-          "length" : 1
+          "start" : 52,
+          "length" : 825
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 66,
+          "start" : 58,
           "length" : 2
-        },
-        {
-          "activity" : "scanExamplesForR5",
-          "start" : 73,
-          "length" : 1
         }
       ]
     },
@@ -120,52 +110,98 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 48,
-          "length" : 18
+          "start" : 39,
+          "length" : 19
         },
         {
           "activity" : "load",
-          "start" : 48,
+          "start" : 39,
+          "length" : 22
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 39,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 44,
+          "length" : 20
+        },
+        {
+          "activity" : "validate",
+          "start" : 45,
+          "length" : 135
+        },
+        {
+          "activity" : "generate1",
+          "start" : 49,
+          "length" : 32
+        },
+        {
+          "activity" : "generate2",
+          "start" : 52,
+          "length" : 129
+        },
+        {
+          "activity" : "generate2",
+          "start" : 53,
+          "length" : 110
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 58,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-helsenim-condition.json",
+      "size" : 2533,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 39,
+          "length" : 15
+        },
+        {
+          "activity" : "load",
+          "start" : 39,
           "length" : 17
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 48,
-          "length" : 17
-        },
-        {
-          "activity" : "scan",
-          "start" : 52,
-          "length" : 1
+          "start" : 39,
+          "length" : 12
         },
         {
           "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 27
+          "start" : 44,
+          "length" : 278
         },
         {
           "activity" : "validate",
-          "start" : 53,
-          "length" : 142
+          "start" : 45,
+          "length" : 171
         },
         {
           "activity" : "generate1",
-          "start" : 56,
-          "length" : 35
+          "start" : 49,
+          "length" : 36
         },
         {
           "activity" : "generate2",
-          "start" : 59,
-          "length" : 164
+          "start" : 52,
+          "length" : 123
         },
         {
           "activity" : "generate2",
-          "start" : 60,
-          "length" : 102
+          "start" : 53,
+          "length" : 87
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 66,
+          "start" : 58,
           "length" : 2
         }
       ]

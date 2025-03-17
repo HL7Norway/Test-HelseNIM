@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "TestHelseNIM"] ; # 
   fhir:title [ fhir:v "Test HelseNIM"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-17T07:22:22+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-03-17T12:25:14+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;
@@ -449,7 +449,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
        fhir:value [
          a fhir:code ;
-         fhir:v "hl7.fhir.uv.tools.r4#0.3.0"
+         fhir:v "hl7.fhir.uv.tools.r4#0.4.1"
        ]
      ] [
        fhir:extension ( [
@@ -828,6 +828,24 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] ) ;
      fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:logical"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/helsenim-condition> ;
+         fhir:reference [ fhir:v "StructureDefinition/helsenim-condition" ]
+       ] ;
+       fhir:name [ fhir:v "Helse-NIM Tilstand (condition)" ] ;
+       fhir:description [ fhir:v "Den logiske modellen for Helse-NIM for Tilstander" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [

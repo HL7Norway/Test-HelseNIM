@@ -1,20 +1,22 @@
 TestHelseNIM : Validation Results
 =========================================
 
-err = 2, warn = 26, info = 0
+err = 2, warn = 36, info = 0
 $--
 Generated $--. FHIR version $-- for hl7.fhir.no.TestHelseNIM#$-- (canonical = http://hl7.no/fhir/ig/TestHelseNIM)
- Build Errors : 0 / 9 / 0
+ Build Errors : 0 / 10 / 0
  /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.TestHelseNIM : 0 / 0 / 1
  /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/fsh-generated/resources/StructureDefinition-Norsk-Navn : 0 / 9 / 1
  /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/fsh-generated/resources/StructureDefinition-Norsk-Pasient : 2 / 8 / 1
+ /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/fsh-generated/resources/StructureDefinition-helsenim-condition : 0 / 9 / 1
 </table>
 == n/a ==
-WARNING: /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/output/StructureDefinition-Norsk-Navn-definitions.html#/html/body/script at Line 316, column 4: The <script> containing the javascript 'try {       var curr'... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed) (also in 17 other files)
-WARNING: /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/output/StructureDefinition-Norsk-Navn-definitions.html#/html/body/script at Line 339, column 4: The <script> containing the javascript '$(document).ready(fu'... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed) (also in 21 other files)
-WARNING: /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/output/StructureDefinition-Norsk-Navn-definitions.html#/html/body/script at Line 380, column 4: The <script> containing the javascript 'anchors.options.visi'... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed) (also in 21 other files)
+WARNING: /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/output/StructureDefinition-Norsk-Navn-definitions.html#/html/body/script at Line 316, column 4: The <script> containing the javascript 'try {       var curr'... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed) (also in 26 other files)
+WARNING: /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/output/StructureDefinition-Norsk-Navn-definitions.html#/html/body/script at Line 339, column 4: The <script> containing the javascript '$(document).ready(fu'... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed) (also in 30 other files)
+WARNING: /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/output/StructureDefinition-Norsk-Navn-definitions.html#/html/body/script at Line 380, column 4: The <script> containing the javascript 'anchors.options.visi'... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed) (also in 30 other files)
 WARNING: /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/output/StructureDefinition-Norsk-Navn.html: The html source has duplicate anchor Ids: Norsk-Navn,Norsk-Navn.etternavn,Norsk-Navn.fornavn,Norsk-Navn.mellomnavn,d-Norsk-Navn,d-Norsk-Navn.etternavn,d-Norsk-Navn.fornavn,d-Norsk-Navn.mellomnavn,k-Norsk-Navn,k-Norsk-Navn.etternavn,k-Norsk-Navn.fornavn,k-Norsk-Navn.mellomnavn,s-summary
 WARNING: /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/output/StructureDefinition-Norsk-Pasient.html: The html source has duplicate anchor Ids: Norsk-Pasient,Norsk-Pasient.kjonn,Norsk-Pasient.navn,Norsk-Pasient.sivilstatus,d-Norsk-Pasient,d-Norsk-Pasient.kjonn,d-Norsk-Pasient.navn,d-Norsk-Pasient.sivilstatus,k-Norsk-Pasient,k-Norsk-Pasient.kjonn,k-Norsk-Pasient.navn,k-Norsk-Pasient.sivilstatus,s-summary
+WARNING: /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/output/StructureDefinition-helsenim-condition.html: The html source has duplicate anchor Ids: d-helsenim-condition,d-helsenim-condition.innholdsstatus,d-helsenim-condition.kategori,d-helsenim-condition.kommentar,helsenim-condition,helsenim-condition.innholdsstatus,helsenim-condition.kategori,helsenim-condition.kommentar,k-helsenim-condition,k-helsenim-condition.innholdsstatus,k-helsenim-condition.kategori,k-helsenim-condition.kommentar,s-summary
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
@@ -41,3 +43,13 @@ WARNING: StructureDefinition/Norsk-Pasient: StructureDefinition.differential.ele
 WARNING: StructureDefinition/Norsk-Pasient: StructureDefinition.differential.element[2]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
 ERROR: StructureDefinition/Norsk-Pasient: StructureDefinition.differential.element[3].binding: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition|4.0.1)
 WARNING: StructureDefinition/Norsk-Pasient: StructureDefinition.differential.element[3]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
+== fsh-generated/resources/StructureDefinition-helsenim-condition.json ==
+WARNING: StructureDefinition/helsenim-condition: StructureDefinition.snapshot.element[0]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
+WARNING: StructureDefinition/helsenim-condition: StructureDefinition.snapshot.element[1]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
+WARNING: StructureDefinition/helsenim-condition: StructureDefinition.snapshot.element[2]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
+WARNING: StructureDefinition/helsenim-condition: StructureDefinition.snapshot.element[3]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
+WARNING: StructureDefinition/helsenim-condition: StructureDefinition.differential.element[0]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
+WARNING: StructureDefinition/helsenim-condition: StructureDefinition.differential.element[1]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
+WARNING: StructureDefinition/helsenim-condition: StructureDefinition.differential.element[2]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
+WARNING: StructureDefinition/helsenim-condition: StructureDefinition.differential.element[3]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
+WARNING: StructureDefinition/helsenim-condition: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
