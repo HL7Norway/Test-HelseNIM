@@ -22,9 +22,9 @@ Characteristics: #can-be-target
 
 Logical: Tester-helsenim-Condition
 Id: helsenim-condition
-Title: "Helse-NIM Tilstand (condition)"
-Description: "Den logiske modellen for Helse-NIM for Tilstander"
-* innholdsstatus 0..1 SU CodeableConcept "https://hl7.org/fhir/uv/ips/STU1.1/ValueSet-absent-or-unknown-problems-uv-ips.html" "Absent or Unknown Problems - IPS"
+Title: "Helse-NIM Tilstand (condition)-TEST"
+Description: "En test av Logiske modellen for Helse-NIM for Tilstander"
+* innholdsstatus 0..1 SU CodeableConcept "no-problem-info| no-known-problems" "Absent or Unknown Problems - IPS"
   * ^binding.valueSet = https://hl7.org/fhir/uv/ips/STU1.1/ValueSet-absent-or-unknown-problems-uv-ips.html
   * ^binding.description = "Absent or Unknown Problems - IPS"
   * ^binding.strength = #preferred
