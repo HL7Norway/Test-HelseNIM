@@ -19,3 +19,17 @@ Characteristics: #can-be-target
   * ^binding.strength = #preferred
 * sivilstatus 0..1 SU code "Sivilstatus"
   * ^binding.valueSet = http://hl7.org/fhir/ValueSet/marital-status
+
+Logical: Tester-helsenim-Condition
+Id: helsenim-condition
+Title: "Helse-NIM Tilstand (condition)"
+Description: "Den logiske modellen for Helse-NIM for Tilstander"
+* innholdsstatus 0..1 SU CodeableConcept "https://hl7.org/fhir/uv/ips/STU1.1/ValueSet-absent-or-unknown-problems-uv-ips.html" "Absent or Unknown Problems - IPS"
+  * ^binding.valueSet = https://hl7.org/fhir/uv/ips/STU1.1/ValueSet-absent-or-unknown-problems-uv-ips.html
+  * ^binding.description = "Absent or Unknown Problems - IPS"
+  * ^binding.strength = #preferred
+* kategori 0..* SU CodeableConcept "https://finnkode.helsedirektoratet.no/adm/collections/7650?q=7650" "KJ 7650 Typer av kritisk informasjon"
+  * ^binding.valueSet = https://finnkode.helsedirektoratet.no/adm/collections/7650?q=7650
+  * ^binding.description = "KJ 7650 Typer av kritisk informasjon"
+  * ^binding.strength = #preferred
+* kommentar 0..1 SU string "Nærmere beskrivelse av tilstanden"
