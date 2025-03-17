@@ -2,6 +2,7 @@
 
 class NorskPasient {
 kjonn 0..1 : CodeableConcept
+sivilstatus 0..1 : code
 }
 
 NorskPasient "0" o-- "*" NorskNavn : navn

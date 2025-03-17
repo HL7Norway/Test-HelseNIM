@@ -17,3 +17,5 @@ Characteristics: #can-be-target
   * ^binding.valueSet = http://hl7.org/fhir/ValueSet/administrative-gender
   * ^binding.description = "HL7 Administrative Gender"
   * ^binding.strength = #preferred
+* sivilstatus 0..1 SU code "Sivilstatus"
+  * ^binding.valueSet = http://hl7.org/fhir/ValueSet/marital-status
