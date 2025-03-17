@@ -12,7 +12,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-Norsk-Pasient.html" : "Norsk-pasientinformasjon"
+      "StructureDefinition-NorskPasient.html" : "Norsk-pasientinformasjon"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/marital-status",
@@ -29,7 +29,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.29"],
       "uses" : {
       },
-      "StructureDefinition-Norsk-Pasient.html" : "Norsk-pasientinformasjon"
+      "StructureDefinition-NorskPasient.html" : "Norsk-pasientinformasjon"
     }
   ]
 }

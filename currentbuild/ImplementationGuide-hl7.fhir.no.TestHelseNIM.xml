@@ -11,7 +11,7 @@
   <name value="TestHelseNIM"/>
   <title value="Test HelseNIM"/>
   <status value="draft"/>
-  <date value="2025-03-17T12:25:14+00:00"/>
+  <date value="2025-03-17T13:10:41+00:00"/>
   <publisher value="HL7 Norge"/>
   <contact>
     <name value="HL7 Norge"/>
@@ -458,8 +458,8 @@
       <reference>
         <reference value="StructureDefinition/helsenim-condition"/>
       </reference>
-      <name value="Helse-NIM Tilstand (condition)"/>
-      <description value="Den logiske modellen for Helse-NIM for Tilstander"/>
+      <name value="Helse-NIM Tilstand (condition)-TEST"/>
+      <description value="En test av Logiske modellen for Helse-NIM for Tilstander"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -467,7 +467,7 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Norsk-Navn"/>
+        <reference value="StructureDefinition/NorskNavn"/>
       </reference>
       <name value="Norsk navn"/>
       <description value="Norwegian  HumanName. HL7 Norway. The profile adds the concept of middlename and further explains of the use for the data-elements in a Norwegian context."/>
@@ -478,7 +478,7 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Norsk-Pasient"/>
+        <reference value="StructureDefinition/NorskPasient"/>
       </reference>
       <name value="Norsk-pasientinformasjon"/>
       <description value="En norsk pasient"/>

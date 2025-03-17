@@ -10,7 +10,7 @@
   "name" : "TestHelseNIM",
   "title" : "Test HelseNIM",
   "status" : "draft",
-  "date" : "2025-03-17T12:25:14+00:00",
+  "date" : "2025-03-17T13:10:41+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -613,8 +613,8 @@
       "reference" : {
         "reference" : "StructureDefinition/helsenim-condition"
       },
-      "name" : "Helse-NIM Tilstand (condition)",
-      "description" : "Den logiske modellen for Helse-NIM for Tilstander",
+      "name" : "Helse-NIM Tilstand (condition)-TEST",
+      "description" : "En test av Logiske modellen for Helse-NIM for Tilstander",
       "exampleBoolean" : false
     },
     {
@@ -623,7 +623,7 @@
         "valueString" : "StructureDefinition:logical"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/Norsk-Navn"
+        "reference" : "StructureDefinition/NorskNavn"
       },
       "name" : "Norsk navn",
       "description" : "Norwegian  HumanName. HL7 Norway. The profile adds the concept of middlename and further explains of the use for the data-elements in a Norwegian context.",
@@ -635,7 +635,7 @@
         "valueString" : "StructureDefinition:logical"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/Norsk-Pasient"
+        "reference" : "StructureDefinition/NorskPasient"
       },
       "name" : "Norsk-pasientinformasjon",
       "description" : "En norsk pasient",

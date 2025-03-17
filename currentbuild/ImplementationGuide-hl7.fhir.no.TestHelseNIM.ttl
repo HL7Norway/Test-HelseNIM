@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "TestHelseNIM"] ; # 
   fhir:title [ fhir:v "Test HelseNIM"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-17T12:25:14+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-03-17T13:10:41+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;
@@ -839,8 +839,8 @@
          fhir:link <http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/helsenim-condition> ;
          fhir:reference [ fhir:v "StructureDefinition/helsenim-condition" ]
        ] ;
-       fhir:name [ fhir:v "Helse-NIM Tilstand (condition)" ] ;
-       fhir:description [ fhir:v "Den logiske modellen for Helse-NIM for Tilstander" ] ;
+       fhir:name [ fhir:v "Helse-NIM Tilstand (condition)-TEST" ] ;
+       fhir:description [ fhir:v "En test av Logiske modellen for Helse-NIM for Tilstander" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -854,8 +854,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/Norsk-Navn> ;
-         fhir:reference [ fhir:v "StructureDefinition/Norsk-Navn" ]
+         fhir:link <http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/NorskNavn> ;
+         fhir:reference [ fhir:v "StructureDefinition/NorskNavn" ]
        ] ;
        fhir:name [ fhir:v "Norsk navn" ] ;
        fhir:description [ fhir:v "Norwegian  HumanName. HL7 Norway. The profile adds the concept of middlename and further explains of the use for the data-elements in a Norwegian context." ] ;
@@ -872,8 +872,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/Norsk-Pasient> ;
-         fhir:reference [ fhir:v "StructureDefinition/Norsk-Pasient" ]
+         fhir:link <http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/NorskPasient> ;
+         fhir:reference [ fhir:v "StructureDefinition/NorskPasient" ]
        ] ;
        fhir:name [ fhir:v "Norsk-pasientinformasjon" ] ;
        fhir:description [ fhir:v "En norsk pasient" ] ;

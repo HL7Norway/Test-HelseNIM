@@ -7,16 +7,16 @@
     "name" : "TestHelseNIM"
   },
   {
-    "id" : "Norsk-Navn",
+    "id" : "NorskNavn",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/Norsk-Navn",
+    "url" : "http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/NorskNavn",
     "version" : "0.1.1",
-    "name" : "Norsk-Navn"
+    "name" : "NorskNavn"
   },
   {
-    "id" : "Norsk-Pasient",
+    "id" : "NorskPasient",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/Norsk-Pasient",
+    "url" : "http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/NorskPasient",
     "version" : "0.1.1",
     "name" : "Pasient"
   },
