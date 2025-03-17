@@ -17,3 +17,5 @@ The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) 
 ","Name(s) of the human","The names by which the human is or has been known","","","","","","","","","",,,,,"",,,,"Norsk-Pasient.navn",0,*,"",""
 "Norsk-Pasient","Norsk-Pasient.kjonn","Norsk-Pasient.kjonn","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
 ","http://hl7.org/fhir/ValueSet/administrative-gender","Administrativt kjønn","","","","","","","","","",,"preferred","HL7 Administrative Gender","http://hl7.org/fhir/ValueSet/administrative-gender","",,,,"Norsk-Pasient.kjonn",0,1,"",""
+"Norsk-Pasient","Norsk-Pasient.sivilstatus","Norsk-Pasient.sivilstatus","","","",0,1,"","","Y","code {[]} {[]}
+","Sivilstatus","Sivilstatus","","","","","","","","","",,"","","http://hl7.org/fhir/ValueSet/marital-status","",,,,"Norsk-Pasient.sivilstatus",0,1,"",""

@@ -13,6 +13,23 @@
       "uses" : {
       },
       "StructureDefinition-Norsk-Pasient.html" : "Norsk-pasientinformasjon"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/marital-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "Marital Status Codes",
+      "title" : "MaritalStatus",
+      "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.29"],
+      "sources" : ["2.16.840.1.113883.4.642.3.29"],
+      "uses" : {
+      },
+      "StructureDefinition-Norsk-Pasient.html" : "Norsk-pasientinformasjon"
     }
   ]
 }
