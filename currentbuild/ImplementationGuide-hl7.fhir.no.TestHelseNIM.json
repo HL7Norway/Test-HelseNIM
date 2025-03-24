@@ -10,7 +10,7 @@
   "name" : "TestHelseNIM",
   "title" : "Test HelseNIM",
   "status" : "draft",
-  "date" : "2025-03-17T13:10:41+00:00",
+  "date" : "2025-03-24T14:09:32+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -606,6 +606,18 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/helsenim-overfolsomhet"
+      },
+      "name" : "Helse-NIM Overfølsomhet - test",
+      "description" : "En logisk modell for Helse-NIM for overfølsomhet",
+      "exampleBoolean" : false
+    },
+    {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:logical"

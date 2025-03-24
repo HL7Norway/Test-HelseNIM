@@ -26,5 +26,12 @@
     "url" : "http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/helsenim-condition",
     "version" : "0.1.1",
     "name" : "Tester-helsenim-Condition"
+  },
+  {
+    "id" : "helsenim-overfolsomhet",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/helsenim-overfolsomhet",
+    "version" : "0.1.1",
+    "name" : "HelseNIMOverfolsomhet"
   }
 ]

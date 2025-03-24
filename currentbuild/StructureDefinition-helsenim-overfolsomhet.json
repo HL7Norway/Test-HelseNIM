@@ -1,0 +1,522 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "helsenim-overfolsomhet",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: StructureDefinition helsenim-overfolsomhet</b></p><a name=\"helsenim-overfolsomhet\"> </a><a name=\"hchelsenim-overfolsomhet\"> </a><a name=\"helsenim-overfolsomhet-no-NO\"> </a><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-helsenim-overfolsomhet-definitions.html#helsenim-overfolsomhet\" title=\"En logisk modell for Helse-NIM for overfølsomhet\">helsenim-overfolsomhet</a><a name=\"helsenim-overfolsomhet\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/types.html#Base\">Base</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Helse-NIM Overfølsomhet - test</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-helsenim-overfolsomhet-definitions.html#helsenim-overfolsomhet.innholdsstatus\" title=\"Forklaring på eventuell manglende informasjon\">innholdsstatus</a><a name=\"helsenim-overfolsomhet.innholdsstatus\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Forklaring på eventuell manglende informasjon<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"https://www.hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-allergies-uv-ips\">https://www.hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-allergies-uv-ips</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#preferred\" title=\"Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.\">preferred</a>): Absent or Unknown Allergies - IPS<br/><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-helsenim-overfolsomhet-definitions.html#helsenim-overfolsomhet.kliniskStatus\" title=\"Om overfølsomheten er aktiv\">kliniskStatus</a><a name=\"helsenim-overfolsomhet.kliniskStatus\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Om overfølsomheten er aktiv<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"https://www.hl7.org/fhir/ValueSet/allergyintolerance-clinical-status\">https://www.hl7.org/fhir/ValueSet/allergyintolerance-clinical-status</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#preferred\" title=\"Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.\">preferred</a>): Allergy Intolerance Clinical Status Codes<br/><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-helsenim-overfolsomhet-definitions.html#helsenim-overfolsomhet.startdato\" title=\"Tidspunkt da overfølsomheten ble konstatert\">startdato</a><a name=\"helsenim-overfolsomhet.startdato\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Tidspunkt da overfølsomheten ble konstatert</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-helsenim-overfolsomhet-definitions.html#helsenim-overfolsomhet.sluttdato\" title=\"Tidspunkt da overfølsomheten eventuelt sluttet\">sluttdato</a><a name=\"helsenim-overfolsomhet.sluttdato\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Tidspunkt da overfølsomheten eventuelt sluttet</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-helsenim-overfolsomhet-definitions.html#helsenim-overfolsomhet.verifikasjonsstatus\" title=\"Om overfølsomheten er bekreftet\">verifikasjonsstatus</a><a name=\"helsenim-overfolsomhet.verifikasjonsstatus\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Om overfølsomheten er bekreftet<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"https://www.hl7.org/fhir/ValueSet/allergyintolerance-verification-status\">https://www.hl7.org/fhir/ValueSet/allergyintolerance-verification-status</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#preferred\" title=\"Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.\">preferred</a>): Allergy Intolerance Verification Status<br/><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-helsenim-overfolsomhet-definitions.html#helsenim-overfolsomhet.type\" title=\"Underliggende mekanisme som forårsaker reaksjonen\">type</a><a name=\"helsenim-overfolsomhet.type\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Underliggende mekanisme som forårsaker reaksjonen<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"https://www.hl7.org/fhir/ValueSet/allergyintolerance-type\">https://www.hl7.org/fhir/ValueSet/allergyintolerance-type</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#preferred\" title=\"Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.\">preferred</a>): Allergy Intolerance Type<br/><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-helsenim-overfolsomhet-definitions.html#helsenim-overfolsomhet.kategori\" title=\"Kategori av agens\">kategori</a><a name=\"helsenim-overfolsomhet.kategori\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Kategori av agens<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"https://www.hl7.org/fhir/ValueSet/allergyintolerance-category\">https://www.hl7.org/fhir/ValueSet/allergyintolerance-category</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#preferred\" title=\"Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.\">preferred</a>): Allergy Intolerance Category<br/><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-helsenim-overfolsomhet-definitions.html#helsenim-overfolsomhet.alvorlighetsgrad\" title=\"Hvor alvorlige konsekvensene av overfølsomheten anses å være\">alvorlighetsgrad</a><a name=\"helsenim-overfolsomhet.alvorlighetsgrad\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Hvor alvorlige konsekvensene av overfølsomheten anses å være<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"https://www.hl7.org/fhir/ValueSet/allergyintolerance-criticality\">https://www.hl7.org/fhir/ValueSet/allergyintolerance-criticality</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#preferred\" title=\"Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.\">preferred</a>): Allergy Intolerance Criticality<br/><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-helsenim-overfolsomhet-definitions.html#helsenim-overfolsomhet.agens\" title=\"Hvilke agens som kan knyttes til overfølsomheten\">agens</a><a name=\"helsenim-overfolsomhet.agens\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Hvilke agens som kan knyttes til overfølsomheten<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-helsenim-overfolsomhet-definitions.html#helsenim-overfolsomhet.kommentar\" title=\"Kommentar eller supplerende opplysninger\">kommentar</a><a name=\"helsenim-overfolsomhet.kommentar\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Kommentar eller supplerende opplysninger</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-helsenim-overfolsomhet-definitions.html#helsenim-overfolsomhet.dokumentasjonsdato\" title=\"Dato for når opplysningen ble dokumentert\">dokumentasjonsdato</a><a name=\"helsenim-overfolsomhet.dokumentasjonsdato\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Dato for når opplysningen ble dokumentert</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-helsenim-overfolsomhet-definitions.html#helsenim-overfolsomhet.reaksjon\" title=\"Liste med reaksjoner for den aktuelle overfølsomheten\">reaksjon</a><a name=\"helsenim-overfolsomhet.reaksjon\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Liste med reaksjoner for den aktuelle overfølsomheten<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-helsenim-overfolsomhet-definitions.html#helsenim-overfolsomhet.manifestasjon\" title=\"Hvilken reaksjon pasienten har hatt\">manifestasjon</a><a name=\"helsenim-overfolsomhet.manifestasjon\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Hvilken reaksjon pasienten har hatt<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"https://www.hl7.org/fhir/ValueSet/allergyintolerance-manifestation\">https://www.hl7.org/fhir/ValueSet/allergyintolerance-manifestation</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#preferred\" title=\"Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.\">preferred</a>): Allergy Intolerance Manifestation<br/><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-helsenim-overfolsomhet-definitions.html#helsenim-overfolsomhet.alvorlighetsgradReaksjon\" title=\"Hvor alvorlig reaksjon pasienten har hatt\">alvorlighetsgradReaksjon</a><a name=\"helsenim-overfolsomhet.alvorlighetsgradReaksjon\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Hvor alvorlig reaksjon pasienten har hatt<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"https://www.hl7.org/fhir/ValueSet/allergyintolerance-severity\">https://www.hl7.org/fhir/ValueSet/allergyintolerance-severity</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#preferred\" title=\"Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.\">preferred</a>): Allergy Intolerance Severity<br/><br/></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  },
+  "url" : "http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/helsenim-overfolsomhet",
+  "version" : "0.1.1",
+  "name" : "HelseNIMOverfolsomhet",
+  "title" : "Helse-NIM Overfølsomhet - test",
+  "status" : "draft",
+  "date" : "2025-03-24T14:09:32+00:00",
+  "publisher" : "HL7 Norge",
+  "contact" : [{
+    "name" : "HL7 Norge",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.no"
+    }]
+  }],
+  "description" : "En logisk modell for Helse-NIM for overfølsomhet",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "fhirVersion" : "4.0.1",
+  "kind" : "logical",
+  "abstract" : false,
+  "type" : "http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/helsenim-overfolsomhet",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Base",
+  "derivation" : "specialization",
+  "snapshot" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
+      "valueString" : "4.0.1"
+    }],
+    "element" : [{
+      "id" : "helsenim-overfolsomhet",
+      "path" : "helsenim-overfolsomhet",
+      "short" : "Helse-NIM Overfølsomhet - test",
+      "definition" : "En logisk modell for Helse-NIM for overfølsomhet",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Base",
+        "min" : 0,
+        "max" : "*"
+      },
+      "isModifier" : false
+    },
+    {
+      "id" : "helsenim-overfolsomhet.innholdsstatus",
+      "path" : "helsenim-overfolsomhet.innholdsstatus",
+      "short" : "Forklaring på eventuell manglende informasjon",
+      "definition" : "Forklaring på eventuell manglende informasjon",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "helsenim-overfolsomhet.innholdsstatus",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Absent or Unknown Allergies - IPS",
+        "valueSet" : "https://www.hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-allergies-uv-ips"
+      }
+    },
+    {
+      "id" : "helsenim-overfolsomhet.kliniskStatus",
+      "path" : "helsenim-overfolsomhet.kliniskStatus",
+      "short" : "Om overfølsomheten er aktiv",
+      "definition" : "Om overfølsomheten er aktiv",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "helsenim-overfolsomhet.kliniskStatus",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Allergy Intolerance Clinical Status Codes",
+        "valueSet" : "https://www.hl7.org/fhir/ValueSet/allergyintolerance-clinical-status"
+      }
+    },
+    {
+      "id" : "helsenim-overfolsomhet.startdato",
+      "path" : "helsenim-overfolsomhet.startdato",
+      "short" : "Tidspunkt da overfølsomheten ble konstatert",
+      "definition" : "Tidspunkt da overfølsomheten ble konstatert",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "helsenim-overfolsomhet.startdato",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "helsenim-overfolsomhet.sluttdato",
+      "path" : "helsenim-overfolsomhet.sluttdato",
+      "short" : "Tidspunkt da overfølsomheten eventuelt sluttet",
+      "definition" : "Tidspunkt da overfølsomheten eventuelt sluttet",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "helsenim-overfolsomhet.sluttdato",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "helsenim-overfolsomhet.verifikasjonsstatus",
+      "path" : "helsenim-overfolsomhet.verifikasjonsstatus",
+      "short" : "Om overfølsomheten er bekreftet",
+      "definition" : "Om overfølsomheten er bekreftet",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "helsenim-overfolsomhet.verifikasjonsstatus",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Allergy Intolerance Verification Status",
+        "valueSet" : "https://www.hl7.org/fhir/ValueSet/allergyintolerance-verification-status"
+      }
+    },
+    {
+      "id" : "helsenim-overfolsomhet.type",
+      "path" : "helsenim-overfolsomhet.type",
+      "short" : "Underliggende mekanisme som forårsaker reaksjonen",
+      "definition" : "Underliggende mekanisme som forårsaker reaksjonen",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "helsenim-overfolsomhet.type",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Allergy Intolerance Type",
+        "valueSet" : "https://www.hl7.org/fhir/ValueSet/allergyintolerance-type"
+      }
+    },
+    {
+      "id" : "helsenim-overfolsomhet.kategori",
+      "path" : "helsenim-overfolsomhet.kategori",
+      "short" : "Kategori av agens",
+      "definition" : "Kategori av agens",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "helsenim-overfolsomhet.kategori",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Allergy Intolerance Category",
+        "valueSet" : "https://www.hl7.org/fhir/ValueSet/allergyintolerance-category"
+      }
+    },
+    {
+      "id" : "helsenim-overfolsomhet.alvorlighetsgrad",
+      "path" : "helsenim-overfolsomhet.alvorlighetsgrad",
+      "short" : "Hvor alvorlige konsekvensene av overfølsomheten anses å være",
+      "definition" : "Hvor alvorlige konsekvensene av overfølsomheten anses å være",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "helsenim-overfolsomhet.alvorlighetsgrad",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Allergy Intolerance Criticality",
+        "valueSet" : "https://www.hl7.org/fhir/ValueSet/allergyintolerance-criticality"
+      }
+    },
+    {
+      "id" : "helsenim-overfolsomhet.agens",
+      "path" : "helsenim-overfolsomhet.agens",
+      "short" : "Hvilke agens som kan knyttes til overfølsomheten",
+      "definition" : "Hvilke agens som kan knyttes til overfølsomheten",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "helsenim-overfolsomhet.agens",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "helsenim-overfolsomhet.kommentar",
+      "path" : "helsenim-overfolsomhet.kommentar",
+      "short" : "Kommentar eller supplerende opplysninger",
+      "definition" : "Kommentar eller supplerende opplysninger",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "helsenim-overfolsomhet.kommentar",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "helsenim-overfolsomhet.dokumentasjonsdato",
+      "path" : "helsenim-overfolsomhet.dokumentasjonsdato",
+      "short" : "Dato for når opplysningen ble dokumentert",
+      "definition" : "Dato for når opplysningen ble dokumentert",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "helsenim-overfolsomhet.dokumentasjonsdato",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "helsenim-overfolsomhet.reaksjon",
+      "path" : "helsenim-overfolsomhet.reaksjon",
+      "short" : "Liste med reaksjoner for den aktuelle overfølsomheten",
+      "definition" : "Liste med reaksjoner for den aktuelle overfølsomheten",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "helsenim-overfolsomhet.reaksjon",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "helsenim-overfolsomhet.manifestasjon",
+      "path" : "helsenim-overfolsomhet.manifestasjon",
+      "short" : "Hvilken reaksjon pasienten har hatt",
+      "definition" : "Hvilken reaksjon pasienten har hatt",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "helsenim-overfolsomhet.manifestasjon",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Allergy Intolerance Manifestation",
+        "valueSet" : "https://www.hl7.org/fhir/ValueSet/allergyintolerance-manifestation"
+      }
+    },
+    {
+      "id" : "helsenim-overfolsomhet.alvorlighetsgradReaksjon",
+      "path" : "helsenim-overfolsomhet.alvorlighetsgradReaksjon",
+      "short" : "Hvor alvorlig reaksjon pasienten har hatt",
+      "definition" : "Hvor alvorlig reaksjon pasienten har hatt",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "helsenim-overfolsomhet.alvorlighetsgradReaksjon",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Allergy Intolerance Severity",
+        "valueSet" : "https://www.hl7.org/fhir/ValueSet/allergyintolerance-severity"
+      }
+    }]
+  },
+  "differential" : {
+    "element" : [{
+      "id" : "helsenim-overfolsomhet",
+      "path" : "helsenim-overfolsomhet",
+      "short" : "Helse-NIM Overfølsomhet - test",
+      "definition" : "En logisk modell for Helse-NIM for overfølsomhet"
+    },
+    {
+      "id" : "helsenim-overfolsomhet.innholdsstatus",
+      "path" : "helsenim-overfolsomhet.innholdsstatus",
+      "short" : "Forklaring på eventuell manglende informasjon",
+      "definition" : "Forklaring på eventuell manglende informasjon",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Absent or Unknown Allergies - IPS",
+        "valueSet" : "https://www.hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-allergies-uv-ips"
+      }
+    },
+    {
+      "id" : "helsenim-overfolsomhet.kliniskStatus",
+      "path" : "helsenim-overfolsomhet.kliniskStatus",
+      "short" : "Om overfølsomheten er aktiv",
+      "definition" : "Om overfølsomheten er aktiv",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Allergy Intolerance Clinical Status Codes",
+        "valueSet" : "https://www.hl7.org/fhir/ValueSet/allergyintolerance-clinical-status"
+      }
+    },
+    {
+      "id" : "helsenim-overfolsomhet.startdato",
+      "path" : "helsenim-overfolsomhet.startdato",
+      "short" : "Tidspunkt da overfølsomheten ble konstatert",
+      "definition" : "Tidspunkt da overfølsomheten ble konstatert",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "helsenim-overfolsomhet.sluttdato",
+      "path" : "helsenim-overfolsomhet.sluttdato",
+      "short" : "Tidspunkt da overfølsomheten eventuelt sluttet",
+      "definition" : "Tidspunkt da overfølsomheten eventuelt sluttet",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "helsenim-overfolsomhet.verifikasjonsstatus",
+      "path" : "helsenim-overfolsomhet.verifikasjonsstatus",
+      "short" : "Om overfølsomheten er bekreftet",
+      "definition" : "Om overfølsomheten er bekreftet",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Allergy Intolerance Verification Status",
+        "valueSet" : "https://www.hl7.org/fhir/ValueSet/allergyintolerance-verification-status"
+      }
+    },
+    {
+      "id" : "helsenim-overfolsomhet.type",
+      "path" : "helsenim-overfolsomhet.type",
+      "short" : "Underliggende mekanisme som forårsaker reaksjonen",
+      "definition" : "Underliggende mekanisme som forårsaker reaksjonen",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Allergy Intolerance Type",
+        "valueSet" : "https://www.hl7.org/fhir/ValueSet/allergyintolerance-type"
+      }
+    },
+    {
+      "id" : "helsenim-overfolsomhet.kategori",
+      "path" : "helsenim-overfolsomhet.kategori",
+      "short" : "Kategori av agens",
+      "definition" : "Kategori av agens",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Allergy Intolerance Category",
+        "valueSet" : "https://www.hl7.org/fhir/ValueSet/allergyintolerance-category"
+      }
+    },
+    {
+      "id" : "helsenim-overfolsomhet.alvorlighetsgrad",
+      "path" : "helsenim-overfolsomhet.alvorlighetsgrad",
+      "short" : "Hvor alvorlige konsekvensene av overfølsomheten anses å være",
+      "definition" : "Hvor alvorlige konsekvensene av overfølsomheten anses å være",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Allergy Intolerance Criticality",
+        "valueSet" : "https://www.hl7.org/fhir/ValueSet/allergyintolerance-criticality"
+      }
+    },
+    {
+      "id" : "helsenim-overfolsomhet.agens",
+      "path" : "helsenim-overfolsomhet.agens",
+      "short" : "Hvilke agens som kan knyttes til overfølsomheten",
+      "definition" : "Hvilke agens som kan knyttes til overfølsomheten",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "helsenim-overfolsomhet.kommentar",
+      "path" : "helsenim-overfolsomhet.kommentar",
+      "short" : "Kommentar eller supplerende opplysninger",
+      "definition" : "Kommentar eller supplerende opplysninger",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "helsenim-overfolsomhet.dokumentasjonsdato",
+      "path" : "helsenim-overfolsomhet.dokumentasjonsdato",
+      "short" : "Dato for når opplysningen ble dokumentert",
+      "definition" : "Dato for når opplysningen ble dokumentert",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "helsenim-overfolsomhet.reaksjon",
+      "path" : "helsenim-overfolsomhet.reaksjon",
+      "short" : "Liste med reaksjoner for den aktuelle overfølsomheten",
+      "definition" : "Liste med reaksjoner for den aktuelle overfølsomheten",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "helsenim-overfolsomhet.manifestasjon",
+      "path" : "helsenim-overfolsomhet.manifestasjon",
+      "short" : "Hvilken reaksjon pasienten har hatt",
+      "definition" : "Hvilken reaksjon pasienten har hatt",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Allergy Intolerance Manifestation",
+        "valueSet" : "https://www.hl7.org/fhir/ValueSet/allergyintolerance-manifestation"
+      }
+    },
+    {
+      "id" : "helsenim-overfolsomhet.alvorlighetsgradReaksjon",
+      "path" : "helsenim-overfolsomhet.alvorlighetsgradReaksjon",
+      "short" : "Hvor alvorlig reaksjon pasienten har hatt",
+      "definition" : "Hvor alvorlig reaksjon pasienten har hatt",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "description" : "Allergy Intolerance Severity",
+        "valueSet" : "https://www.hl7.org/fhir/ValueSet/allergyintolerance-severity"
+      }
+    }]
+  }
+}

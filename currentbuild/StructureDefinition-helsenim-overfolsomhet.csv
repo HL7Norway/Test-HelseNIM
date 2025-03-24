@@ -1,0 +1,31 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"helsenim-overfolsomhet","helsenim-overfolsomhet","","","",0,*,"","","","null {[]} {[]}
+","Helse-NIM Overfølsomhet - test","En logisk modell for Helse-NIM for overfølsomhet","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"helsenim-overfolsomhet.innholdsstatus","helsenim-overfolsomhet.innholdsstatus","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Forklaring på eventuell manglende informasjon","Forklaring på eventuell manglende informasjon","","","","","","","","","",,"preferred","Absent or Unknown Allergies - IPS","https://www.hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-allergies-uv-ips","",,,,"helsenim-overfolsomhet.innholdsstatus",0,1,"",""
+"helsenim-overfolsomhet.kliniskStatus","helsenim-overfolsomhet.kliniskStatus","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Om overfølsomheten er aktiv","Om overfølsomheten er aktiv","","","","","","","","","",,"preferred","Allergy Intolerance Clinical Status Codes","https://www.hl7.org/fhir/ValueSet/allergyintolerance-clinical-status","",,,,"helsenim-overfolsomhet.kliniskStatus",0,1,"",""
+"helsenim-overfolsomhet.startdato","helsenim-overfolsomhet.startdato","","","",0,1,"","","","dateTime {[]} {[]}
+","Tidspunkt da overfølsomheten ble konstatert","Tidspunkt da overfølsomheten ble konstatert","","","","","","","","","",,,,,"",,,,"helsenim-overfolsomhet.startdato",0,1,"",""
+"helsenim-overfolsomhet.sluttdato","helsenim-overfolsomhet.sluttdato","","","",0,1,"","","","dateTime {[]} {[]}
+","Tidspunkt da overfølsomheten eventuelt sluttet","Tidspunkt da overfølsomheten eventuelt sluttet","","","","","","","","","",,,,,"",,,,"helsenim-overfolsomhet.sluttdato",0,1,"",""
+"helsenim-overfolsomhet.verifikasjonsstatus","helsenim-overfolsomhet.verifikasjonsstatus","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Om overfølsomheten er bekreftet","Om overfølsomheten er bekreftet","","","","","","","","","",,"preferred","Allergy Intolerance Verification Status","https://www.hl7.org/fhir/ValueSet/allergyintolerance-verification-status","",,,,"helsenim-overfolsomhet.verifikasjonsstatus",0,1,"",""
+"helsenim-overfolsomhet.type","helsenim-overfolsomhet.type","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Underliggende mekanisme som forårsaker reaksjonen","Underliggende mekanisme som forårsaker reaksjonen","","","","","","","","","",,"preferred","Allergy Intolerance Type","https://www.hl7.org/fhir/ValueSet/allergyintolerance-type","",,,,"helsenim-overfolsomhet.type",0,1,"",""
+"helsenim-overfolsomhet.kategori","helsenim-overfolsomhet.kategori","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Kategori av agens","Kategori av agens","","","","","","","","","",,"preferred","Allergy Intolerance Category","https://www.hl7.org/fhir/ValueSet/allergyintolerance-category","",,,,"helsenim-overfolsomhet.kategori",0,1,"",""
+"helsenim-overfolsomhet.alvorlighetsgrad","helsenim-overfolsomhet.alvorlighetsgrad","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Hvor alvorlige konsekvensene av overfølsomheten anses å være","Hvor alvorlige konsekvensene av overfølsomheten anses å være","","","","","","","","","",,"preferred","Allergy Intolerance Criticality","https://www.hl7.org/fhir/ValueSet/allergyintolerance-criticality","",,,,"helsenim-overfolsomhet.alvorlighetsgrad",0,1,"",""
+"helsenim-overfolsomhet.agens","helsenim-overfolsomhet.agens","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Hvilke agens som kan knyttes til overfølsomheten","Hvilke agens som kan knyttes til overfølsomheten","","","","","","","","","",,,,,"",,,,"helsenim-overfolsomhet.agens",0,*,"",""
+"helsenim-overfolsomhet.kommentar","helsenim-overfolsomhet.kommentar","","","",0,1,"","","","string {[]} {[]}
+","Kommentar eller supplerende opplysninger","Kommentar eller supplerende opplysninger","","","","","","","","","",,,,,"",,,,"helsenim-overfolsomhet.kommentar",0,1,"",""
+"helsenim-overfolsomhet.dokumentasjonsdato","helsenim-overfolsomhet.dokumentasjonsdato","","","",0,1,"","","","dateTime {[]} {[]}
+","Dato for når opplysningen ble dokumentert","Dato for når opplysningen ble dokumentert","","","","","","","","","",,,,,"",,,,"helsenim-overfolsomhet.dokumentasjonsdato",0,1,"",""
+"helsenim-overfolsomhet.reaksjon","helsenim-overfolsomhet.reaksjon","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Liste med reaksjoner for den aktuelle overfølsomheten","Liste med reaksjoner for den aktuelle overfølsomheten","","","","","","","","","",,,,,"",,,,"helsenim-overfolsomhet.reaksjon",0,*,"",""
+"helsenim-overfolsomhet.manifestasjon","helsenim-overfolsomhet.manifestasjon","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Hvilken reaksjon pasienten har hatt","Hvilken reaksjon pasienten har hatt","","","","","","","","","",,"preferred","Allergy Intolerance Manifestation","https://www.hl7.org/fhir/ValueSet/allergyintolerance-manifestation","",,,,"helsenim-overfolsomhet.manifestasjon",0,1,"",""
+"helsenim-overfolsomhet.alvorlighetsgradReaksjon","helsenim-overfolsomhet.alvorlighetsgradReaksjon","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Hvor alvorlig reaksjon pasienten har hatt","Hvor alvorlig reaksjon pasienten har hatt","","","","","","","","","",,"preferred","Allergy Intolerance Severity","https://www.hl7.org/fhir/ValueSet/allergyintolerance-severity","",,,,"helsenim-overfolsomhet.alvorlighetsgradReaksjon",0,1,"",""
