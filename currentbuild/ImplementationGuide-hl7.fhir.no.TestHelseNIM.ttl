@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "TestHelseNIM"] ; # 
   fhir:title [ fhir:v "Test HelseNIM"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-24T14:09:32+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-01T08:20:48+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;
@@ -898,6 +898,31 @@
        fhir:example [
          a fhir:boolean ;
          fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "application/fhir+json"
+         ]
+       ] [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Binary"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/ig/TestHelseNIM/Binary/NorskPasientEksempel> ;
+         fhir:reference [ fhir:v "Binary/NorskPasientEksempel" ]
+       ] ;
+       fhir:name [ fhir:v "NorskPasientEksempel" ] ;
+       fhir:description [ fhir:v "Example of NorskPasient" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/NorskPasient"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/NorskPasient>
        ]
      ] ) ;
      fhir:page [

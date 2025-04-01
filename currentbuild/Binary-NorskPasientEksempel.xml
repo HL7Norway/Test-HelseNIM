@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Binary xmlns="http://hl7.org/fhir">
+  <id value="NorskPasientEksempel"/>
+  <contentType value="application/fhir+json"/>
+  <data value="ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL2hsNy5uby9maGlyL2lnL1Rlc3RIZWxzZU5JTS9TdHJ1Y3R1cmVEZWZpbml0aW9uL05vcnNrUGFzaWVudCIsCiAgIm5hdm4iOiBbCiAgICB7CiAgICAgICJmb3JuYXZuIjogWwogICAgICAgICJUaG9tYXMiCiAgICAgIF0sCiAgICAgICJldHRlcm5hdm4iOiAiUm9zZW5sdW5kIgogICAgfQogIF0KfQo="/>
+</Binary>

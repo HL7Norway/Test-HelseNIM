@@ -10,7 +10,7 @@
   "name" : "TestHelseNIM",
   "title" : "Test HelseNIM",
   "status" : "draft",
-  "date" : "2025-03-24T14:09:32+00:00",
+  "date" : "2025-04-01T08:20:48+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -652,6 +652,22 @@
       "name" : "Norsk-pasientinformasjon",
       "description" : "En norsk pasient",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format",
+        "valueCode" : "application/fhir+json"
+      },
+      {
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Binary"
+      }],
+      "reference" : {
+        "reference" : "Binary/NorskPasientEksempel"
+      },
+      "name" : "NorskPasientEksempel",
+      "description" : "Example of NorskPasient",
+      "exampleCanonical" : "http://hl7.no/fhir/ig/TestHelseNIM/StructureDefinition/NorskPasient"
     }],
     "page" : {
       "extension" : [{

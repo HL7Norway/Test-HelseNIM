@@ -5,6 +5,7 @@ err = 0, warn = 43, info = 0
 $--
 Generated $--. FHIR version $-- for hl7.fhir.no.TestHelseNIM#$-- (canonical = http://hl7.no/fhir/ig/TestHelseNIM)
  Build Errors : 0 / 4 / 0
+ /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/fsh-generated/resources/Binary-NorskPasientEksempel : 0 / 0 / 1
  /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.TestHelseNIM : 0 / 0 / 1
  /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/fsh-generated/resources/StructureDefinition-NorskNavn : 0 / 0 / 1
  /__w/Test-HelseNIM/Test-HelseNIM/HelseNIM/fsh-generated/resources/StructureDefinition-NorskPasient : 0 / 0 / 1
@@ -16,6 +17,7 @@ WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in 
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Binary-NorskPasientEksempel.json ==
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.TestHelseNIM.json ==
 == fsh-generated/resources/StructureDefinition-NorskNavn.json ==
 == fsh-generated/resources/StructureDefinition-NorskPasient.json ==

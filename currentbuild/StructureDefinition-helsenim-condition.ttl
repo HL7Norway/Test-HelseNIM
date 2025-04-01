@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "Tester-helsenim-Condition"] ; # 
   fhir:title [ fhir:v "Helse-NIM Tilstand (condition)-TEST"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-24T14:09:32+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-01T08:20:48+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;
