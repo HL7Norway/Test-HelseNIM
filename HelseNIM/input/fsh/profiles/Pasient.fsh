@@ -33,9 +33,3 @@ Description: "En test av Logiske modellen for Helse-NIM for Tilstander"
   * ^binding.description = "KJ 7650 Typer av kritisk informasjon"
   * ^binding.strength = #preferred
 * kommentar 0..1 SU string "Nærmere beskrivelse av tilstanden"
-
-Instance: NorskPasientEksempel
-InstanceOf: NorskPasient
-Description: "Example of NorskPasient"
-* navn.fornavn = "Thomas"
-* navn.etternavn = "Rosenlund"
